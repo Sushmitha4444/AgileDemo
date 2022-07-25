@@ -29,7 +29,7 @@ public class TypeCasting {
 		int y=(int)x;
 		System.out.println("Value of x: "+x);
 		System.out.println("Value of y: "+y);
-		
+		System.out.println("typecasting done");
 	}
 }
 
