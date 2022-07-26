@@ -1,17 +1,23 @@
 package com.phase1;
-
 public class Methods {
 
-public int multipynumbers(int a,int b) {
-	int z=a*b;
-	return z;
+int val=150;
+
+int operation(int val) {
+	val =val*10/100;
+	return(val);
 }
 
-public static void main(String[] args) {
-
-	Methods b=new Methods();
-	int ans= b.multipynumbers(10,3);
-	System.out.println("Multiplication is :"+ans);
+public static void main(String args[]) {
+	Methods d = new Methods();
+	System.out.println("Before operation value of data is "+d.val);
+	d.operation(100);
+	System.out.println("After operation value of data is "+d.val);
 	}
 }
+
+
+
+
+
 
