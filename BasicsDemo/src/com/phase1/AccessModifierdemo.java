@@ -7,7 +7,7 @@ class defAccessSpecifier
      } 
 } 
 
-public class AccessModifier {
+public class AccessModifierdemo {
 
 	public static void main(String[] args) {
 		//default
